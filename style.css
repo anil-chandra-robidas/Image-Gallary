@@ -1,0 +1,58 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+	color: #000;
+	font-family: tahoma;
+}
+h1{
+	color: #fff;
+	background: #000;
+	height: 100px;
+	padding: 20px;
+	font-variant: small-caps;
+}
+.footer{
+	background: #000;
+	height: 150px;
+	color: #fff;
+}
+.well{
+	background: #000;
+}
+
+
+.thumbnail {
+  position: relative;
+  overflow: hidden;
+  width: auto;
+  background: #678;
+}
+.thumbnail img {
+  max-width: 100%;
+  -moz-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.3s;
+}
+.thumbnail:hover img{
+  -moz-transform: scale(2.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.3);
+}
+.caption {
+	text-align: justify;
+	font-family: arial;
+	font-size: 20px;
+	font-variant: small-caps;
+}
+.site{
+	text-transform: uppercase;
+}
+.fancybox img{
+	width: 100%;
+	height: auto;
+}
